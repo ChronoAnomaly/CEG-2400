@@ -1,0 +1,29 @@
+sites:
+
+edraw
+telegram
+wickr
+viber
+line
+visihow: how to change mac address
+GoCertify
+mac address lookup
+cantact
+yandex
+sez(h)?am.cz
+naver
+baidu
+haosou
+ublock
+disconect.me
+speed(up?).me
+testmy.net
+visualware
+html5speedtest
+ping-test.net
+google ipv4 censuse
+angry ip scanner
+advanced ip scanner
+unixwiz
+softperfect
+emco

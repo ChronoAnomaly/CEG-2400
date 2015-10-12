@@ -27,3 +27,7 @@ advanced ip scanner
 unixwiz
 softperfect
 emco
+ddwrt
+openwrt
+myopenrouter
+nessus

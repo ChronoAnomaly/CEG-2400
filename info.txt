@@ -31,3 +31,12 @@ ddwrt
 openwrt
 myopenrouter
 nessus
+spiceworks
+netlimiter
+network notepad
+dreamsys software
+raw logic software
+technitium
+rogue scanner
+network magic
+netpeek

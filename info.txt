@@ -40,3 +40,5 @@ technitium
 rogue scanner
 network magic
 netpeek
+yougetsignal
+monitis

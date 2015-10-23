@@ -42,3 +42,10 @@ network magic
 netpeek
 yougetsignal
 monitis
+sectools.org
+acrylic.com
+oxid.it
+homedale
+opensignalmap
+cerberus
+wigle.net

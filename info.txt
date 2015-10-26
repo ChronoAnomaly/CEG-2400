@@ -49,3 +49,6 @@ homedale
 opensignalmap
 cerberus
 wigle.net
+getflix
+tunnelbear
+betternet

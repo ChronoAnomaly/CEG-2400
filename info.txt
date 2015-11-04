@@ -56,3 +56,6 @@ darkreading
 redmond pie
 i09
 hootoo
+rdcman
+remote desktop connection manager
+

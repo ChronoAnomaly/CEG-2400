@@ -58,4 +58,8 @@ i09
 hootoo
 rdcman
 remote desktop connection manager
-
+fake call
+txtemnow
+spoofpro
+spooftel
+spoofcard

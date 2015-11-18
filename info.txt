@@ -63,3 +63,9 @@ txtemnow
 spoofpro
 spooftel
 spoofcard
+pc engines
+opensense
+pfsense
+123cam
+insecam
+reddit/r/controlablecamera

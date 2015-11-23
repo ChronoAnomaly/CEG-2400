@@ -16,11 +16,16 @@ baidu
 haosou
 ublock
 disconect.me
+
+internet speed tests
+-----------------------------
 speed(up?).me
 testmy.net
 visualware
 html5speedtest
 ping-test.net
+
+
 google ipv4 censuse
 angry ip scanner
 advanced ip scanner
@@ -69,3 +74,44 @@ pfsense
 123cam
 insecam
 reddit/r/controlablecamera
+https://www.grc.com/fingerprints.htm
+winscp
+
+black friday adds/sales stuff
+-----------------------------
+bfadds.com
+camelcamelcamel
+slickdeals
+woot
+salescircular
+
+android
+-----------------------------
+duos
+bluestacks
+apkfreeware
+apkdownloads
+android apk
+
+dark android apps
+-----------------------------
+showbox - movies
+loaderdroid - download manager
+tvportal - tv shows
+
+sites
+-----------------------------
+http://audiobookbay.cc/ - audio books
+http://hundredzeros.com/ - tracks free kindle boks [legal]
+http://www.ereaderiq.com/ - ^ [legal]
+popcorntime
+https://handbrake.fr/ - dvd cracking tool
+http://www.dvdfab.cn/
+
+password for archive 
+-----------------------------
+CEG*2400-01
+
+apkscanner
+https://apkscan.nviso.be/
+archwelder - chrome extension

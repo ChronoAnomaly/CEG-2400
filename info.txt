@@ -115,3 +115,26 @@ CEG*2400-01
 apkscanner
 https://apkscan.nviso.be/
 archwelder - chrome extension
+
+
+
+
+
+sites
+-----------------------------
+ninite.com
+osalt
+how-to-geek
+lifehacker
+winsupersite
+macrumer
+macdev
+
+
+sites - iso stuff
+-----------------------------
+isostick
+iso to usb
+multiiso?
+rufus
+pendrivelunix.com

@@ -1,0 +1,21 @@
+/* Only for Programming - pseudo numbers are different in design */
+
+#floatcart table.cart tr td:nth-child(2) {
+   position: absolute;
+   font-size: 11px;
+   font-weight: bold;
+   margin: 50px 0 0 90px;
+   color: #c00;
+   border: none;
+}
+
+#floatcart table.cart tr td:nth-child(3) {
+   position: absolute;
+   margin: 50px 0 0 190px;
+   border: none;   
+}
+
+#floatcart table.cart tr.warranty td:nth-child(2) {
+   margin-left: 90px;	
+}
+

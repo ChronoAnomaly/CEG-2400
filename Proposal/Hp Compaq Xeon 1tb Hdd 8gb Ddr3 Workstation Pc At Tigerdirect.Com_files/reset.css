@@ -1,0 +1,336 @@
+/* --------------------------------------- RESETS --------------------------------------- */
+
+html { overflow-y: scroll } /* Always force a scrollbar in non-IE */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {  
+    display:block;
+}
+
+html, body, p, h1, h2, h3, h4, h5, h6,  dl, dt, dd, ol, ul, li, fieldset, form, label, input {
+    margin: 0;
+	padding: 0;
+	font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #333;
+}
+
+dl, dt, dd, ol, ul, li, fieldset, form, label, input, p{
+     line-height: 100%;	
+}
+
+ul, ol {
+	list-style: none;	
+}
+
+header, nav { display: block }
+
+img, fieldset { border:0 }
+
+input[type="text"], input[type="password"], textarea {
+    border: 1px solid #ccc;
+    box-shadow: 0 20px 15px -20px #D6D6D6 inset;
+    color: #555555;
+    outline: medium none;
+    padding: 4px;
+}
+
+textarea { resize: none }
+
+a {
+	color: #333; 
+	font-size: 12px;
+	text-decoration: none; 
+	cursor: pointer;
+	outline:none;
+	-moz-outline-style:none;
+}
+
+a:active, a:focus  {outline:none;-moz-outline-style:none;}
+
+p { margin: 0 }  /* Have to find out */
+
+p.last { margin-bottom: 0 }
+
+strong { font-weight: bold; }
+
+
+
+/* --------------------------------------- IMAGE PATHS --------------------------------------- */
+
+/* -- SPRITE IMAGES -- */
+
+/* sprite_prod.png */
+#actinfo_lists a.more, .ui-widget-header .ui-icon,  /* account.css,  */
+#leftnav ul#subnav a.btn.remove, .showfilters a.fclose, 
+.ship_info a.btn.remove, #account_body #actinfo_manage a.btn.delete,
+ul.prod a.btn.remove, .compare_items a.btn,   /* btns.css,  */
+.error_icon, .compare .item .remove, .qview .remove, .listview, .listview_sel, .compare_prod .remove, 
+.rating, .gridview, .gridview_sel, .arrow, 
+.leftnav h2, .leftnav .price_range, .leftnav .facet_type, .leftnav .facet_type_close, .leftnav .top10_type, .leftnav .extras, .ui-slider .ui-slider-handle, 
+.see_reviews div.arrow, table.saved_carts tr td.remove div, a.btn_remove_icon, .attribute .arrow_open, .attribute  .arrow_close, 
+.compare_more_bg, .compare_more_bg_last, #slider-controls #prev, #slider-controls #next, .yes_help, .no_help,
+.account_nav .mgmt_type, 
+.confirm_sec .confirm_icon, 
+div.searchFail #phoneBox div.poly, 
+div.searchFail div.leftCol div p span, div.searchFail #phoneBox div span, /* common.css,  */
+.reviews article p a, 
+.product_que div:first-child span, /* featureProductTabs.css  */
+div#pictureGridContainer div.imgHoverTip, .alsobuy div.imgHoverTip, #customizeContainer  p.yellowArrow, /* picGroupGrid.css  */
+.cartSlider .jcarousel-prev, .cartSlider .jcarousel-next, 
+p#warrantyCart span:first-child, /* popUps.css */
+.prevArrow, .nextArrow, 
+.rating, 
+.compare_add ul.prod li,
+.compare4 ul.prod li,
+#details .qmark, 
+#cart_sec .qty, #cart_sec .auto_reorder, 
+.shoplists_sec .lists ul li a, .shoplists_sec .lists ul li a:hover, .shoplists_sec .lists ul li a.sel,
+.jcarousel-skin-tango .jcarousel-prev-vertical, .jcarousel-skin-tango .jcarousel-next-vertical, /* prod.css,  */
+.jcarousel-prev-horizontal, .jcarousel-next-horizontal, .jspDrag /* slider.css,  */
+{background-image:url("//i104.geccdn.net/site/img/sprite_prod.png");}
+
+/* sprite_btns_main.png */
+.btn, input.btn,  
+.list ul.prod .btn.addtocart, .list ul.prod .btn.customize, .list ul.prod .btn.configure,
+.pzTemplate input.preview, /* btns.css */
+.cartSlider ul.prod .btn.addtocart,
+.cartPopUpQuote .viewItems p input /* for tiger only might move to tiger styles */ /*  popups.css  */
+{background-image:url("//i104.geccdn.net/site/img/sprite_btns_main.png");}
+
+/* sprite_btn.png */
+.btn_search, .btn_signup {background-image:url("//i104.geccdn.net/site/img/sprite_btn.png");}  /* common.css */
+
+/* sprite_btn2.png */
+.btn_leftnav_rep {background-image:url("//i104.geccdn.net/site/img/sprite_btn2.png");}  /* common.css */
+
+/* sprite_btns.png */
+ul.prod .btn.addtocart, ul.prod .btn.customize, ul.prod .btn.configure, table.sellers a.btn.addtocart, a.btn.add_seller,
+.pzTemplate input.disablePreview,
+.alsobuy .btn.addtocart, .alsobuy .btn.customize, .alsobuy .btn.configure,
+.btn.requestQuote,
+#pictureGridContainer .addlist,
+input.btn_apply_change, /* btns.css */
+div.searchFail div.leftCol .search_nav, /* common.css */
+#prodInfo_txt div.prodBtns a, /* featureProductTabs */
+#feedback_container input.submitCmt,  /*  picGroupGrid.css  */
+.viewItems .btn.continueShop, .viewItems .btn.continueOnly  /* popUps.css */
+{background-image:url("//i104.geccdn.net/site/img/sprite_btns.png");}
+
+/* sprite_icon.png */
+#customizeContainer .items li.more a p, /* featureProductTabs.css */
+.closeBtn a, .closeBtnWarning a, #prodInfo_txt div.prodBtns a.closeBtn  /* popUps.css */
+{background-image: url("//i104.geccdn.net/site/img/sprite_icon.png");}  /* featureProductTabs.css */
+
+/* sprite_warranty.png */
+.warranty_badge {background-image: url("//i104.geccdn.net/site/img/sprite_warranty.png");}  /* prod.css */
+
+/* sprite.png */
+.pzTemplate .rightCol .pzhdr .minus, .pzTemplate .rightCol .pzhdr .plus, /* popUps.css */
+#clearance_body .view, #rebates_body .view   /* prod.css */ 
+{background-image: url("//i104.geccdn.net/site/img/sprite.png");} 
+
+
+/* -- SINGLE IMAGES -- */
+
+/* account.css */
+#actnav li, #actnav li.sel {background-image:url("//i104.geccdn.net/site/img/arrow_actnav.png");}
+#account_body #actinfo_main ul.info li {background-image:url("//i104.geccdn.net/site/img/actmain_div.png");}
+#actinfo_main ul.rec_cat li {background-image:url("//i104.geccdn.net/site/img/sprite_bg.png");}
+input.inputDate {background-image:url("//i104.geccdn.net/site/img/sprite_prod.png");}
+table.account thead tr td a.asc {background-image:url("//i104.geccdn.net/site/img/act_asc.gif");}
+table.account thead tr td a.desc {background-image:url("//i104.geccdn.net/site/img/act_desc.gif");}
+.sales_chart_div {background-image:url("//i104.geccdn.net/site/img/sales_chart_div_bg.gif");}
+.salescomm_chart_div {background-image:url("//i104.geccdn.net/site/img/salescomm_chart_div_bg.gif");}
+.sales_chart {background-image:url("//i104.geccdn.net/site/img/sales_chart_bg.gif");}
+.salescomm_chart {background-image:url("//i104.geccdn.net/site/img/salescomm_chart_bg.gif");}
+.prod_ratings .btn.read_more {background-image:url("//i104.geccdn.net/site/img/btn_read_more.gif");}
+.prod_ratings .btn.read_less {background-image:url("//i104.geccdn.net/site/img/btn_read_less.gif");}
+
+
+/* btns.css */
+.btn.see_all {background-image:url("//i104.geccdn.net/site/img/arrow_red_circle.gif");}
+#sellers_body a.btn.back {background-image:url("//i104.geccdn.net/site/img/arrow_back.png");}
+a.btn.pdf {background-image:url("//i104.geccdn.net/site/img/ico_pdf.png");}
+a.btn.excel {background-image:url("//i104.geccdn.net/site/img/ico_excel.png");}
+.compare_results .btns .btn.email {background-image:url("//i104.geccdn.net/site/img/btn_email_comp.gif");}
+.compare_results .btns a.btn.print {background-image:url("//i104.geccdn.net/site/img/btn_print_compare.gif");}
+a.btn_paypal {background-image:url("//i104.geccdn.net/site/img/btn_paypalcheckout.gif");}
+a.btn_addcart {background-image:url("//i104.geccdn.net/site/img/btn_addcart.gif");}
+a.btn_addcart_sm, input.btn_addcart_sm {background-image:url("//i104.geccdn.net/site/img/btn_addcart_sm.gif");}
+a.btn_addcart_xsm {background-image:url("//i104.geccdn.net/site/img/btn_addcart_xsm.gif");}
+#account_body a.btn.edit {background-image:url("//i104.geccdn.net/site/img/ico_act_edit.png");}
+#account_body a.btn.default {background-image:url("//i104.geccdn.net/site/img/ico_set_default.png");}
+a.btn_print_compare {background-image:url("//i104.geccdn.net/site/img/btn_print_compare.png");}
+a.btn_email_compare {background-image:url("//i104.geccdn.net/site/img/btn_email_compare.png");}
+a.prod_add_cart_sm {background-image:url("//i104.geccdn.net/site/img/btn_addtocart_sm.gif");}
+a.btn_addcart_lg, input.btn_addcart_lg {background-image:url("//i104.geccdn.net/site/img/btn_prod_addcart.gif");}
+a.btn_savelist_lg, input.btn_savelist_lg {background-image:url("//i104.geccdn.net/site/img/btn_prod_addlist.gif");}
+a.btn_write_review {background-image:url("//i104.geccdn.net/site/img/btn_write_review.png");}
+a#btn_return_cat {background-image:url("//i104.geccdn.net/site/img/btn_return_cat.gif");}
+.btn.change {background-image:url("//i104.geccdn.net/site/img/btn_change.gif");}
+#prod_body #cart_sec .btn.addlist, .btn.simitem {background-image:url("//i104.geccdn.net/site/site/img/arrow_addlist.gif");}
+.btn.simitem {background-image:url("//i104.geccdn.net/site/site/img/arrow_addlist.gif");}
+
+
+/*  cart  */
+.discounts ul li {background-image:url("//i104.geccdn.net/site/img/ico_dollars.gif");}
+.rebate {background-image:url("//i104.geccdn.net/site/img/asterisk.gif");}
+#floatcart .btns .delete, #floatcart .warranty a.delete {background-image:url("//i104.geccdn.net/site/img/btn_floatcart_delete.gif");}
+table.cart tbody tr td a.addons, table.cart tbody tr td a.addons_none {background-image:url("//i104.geccdn.net/site/img/cart_addons.png");}
+table.cart tbody tr td a.addons_none {background-image: url("//i104.geccdn.net/site/img/cart_addons_none.png");}
+a.add_warranty {background-image:url("//i104.geccdn.net/site/img/ico_warranty.png");}
+.cart_info ul li {background-image: url("//i104.geccdn.net/site/img/arrow_blue.gif");}
+table.savedCart tbody tr td a.remove {background-image: url("//i104.geccdn.net/site/img/ico_remove.png");}
+
+
+/*  cart_prog.css - no image paths  */
+
+
+/* checkout */
+.checkout_step1_sel {background-image:url("//i104.geccdn.net/site/img/checkout_step1_sel.gif");}
+.checkout_step2 {background-image:url("//i104.geccdn.net/site/img/checkout_step2.gif");}
+.checkout_step2_sel {background-image:url("//i104.geccdn.net/site/img/checkout_step2_sel.gif");}
+.checkout_step3 {background-image:url("//i104.geccdn.net/site/img/checkout_step3.gif");}
+.checkout_step3_sel {background-image:url("//i104.geccdn.net/site/img/checkout_step3_sel.gif");}
+.checkout_quote_step2 {background-image:url("//i104.geccdn.net/site/img/quote_step2.gif");}
+.checkout_quote_step2_sel {background-image:url("//i104.geccdn.net/site/img/quote_step2_sel.gif");}
+.checkout_quote_step3 {background-image:url("//i104.geccdn.net/site/img/quote_step3.gif");}
+.checkout_quote_step3_sel {background-image:url("//i104.geccdn.net/site/img/quote_step3_sel.gif");}
+.pw_none {background-image:url("//i104.geccdn.net/site/img/pw_none.gif");}
+.pw_weak {background-image:url("//i104.geccdn.net/site/img/pw_weak.gif");}
+.pw_good {background-image:url("//i104.geccdn.net/site/img/pw_good.gif");}
+.pw_strong {background-image:url("//i104.geccdn.net/site/img/pw_strong.gif");}
+.multi_ship {background-image:url("//i104.geccdn.net/site/img/chkout_line.gif");}
+#checkout_body .actinfo a.btn.edit, .loc_sec a.edit{background-image:url("//i104.geccdn.net/site/img/btn_edit.gif");}
+.ship, .ship_sel {background-image:url("//i104.geccdn.net/site/img/checkout_ship.gif");}
+#order_review .chkout_addons, .chkout_addons_none {background-image:url("//i104.geccdn.net/site/img/cart_addons_sm.png");}
+#order_review .chkout_addons_none_none {background-image: url("//i104.geccdn.net/site/img/cart_addons_sm_none.png");}
+#order_review .auto_reorder p, #summary_confirm .auto_reorder p {background-image:url("//i104.geccdn.net/site/img/ico_reorder.gif");}
+
+
+/* common.css */
+.actlist_popup ul li {background-image: url("//i104.geccdn.net/site/img/arrow_blue_curve.gif");}
+.breadcrumbs span{background-image: url("//i104.geccdn.net/site/img/sprite_icon.png");}
+.captcha a.refresh {background-image:url("//i104.geccdn.net/site/img/ico_refresh.png");}
+.pagenotfound .notfound_bg {background-image: url("//i104.geccdn.net/site/img/notFound_bg.gif");}
+
+
+/* featureProductTabs */
+#ajaxIndicator span, .ajaxIndicator span,
+#progressbar_pop div span /*  popups.css  */ {background-image:url("//i104.geccdn.net/site/img/indicator.gif");}
+#custReview_txt .stars {background-image: url("//i104.geccdn.net/site/img/sprite.png");}
+#prod_body #details_more .desc ul li {background-image: url("//i104.geccdn.net/site/img/bullet_desc.gif");}
+
+
+/*  footer  */
+#chaticon {background-image:url("//i104.geccdn.net/site/img/chat_icon.png");}
+#chatclose{background-image:url("//i104.geccdn.net/site/img/chat_close.png");}
+footer .call .hdr, ul.contact li:first-child {background-image:url("//i104.geccdn.net/site/img/ico_ftr_call.png");}
+footer .chat .hdr, ul.contact li:nth-child(2) {background-image:url("//i104.geccdn.net/site/img/ico_ftr_chat.png");}
+.email .hdr, ul.contact li:last-child {background-image:url("//i104.geccdn.net/site/img/ico_ftr_email.png");}
+#email_alerts .hdr {background-image:url("//i104.geccdn.net/site/img/ico_ftr_email_alerts.png");}
+ul.soc_med li {background-image:url("//i104.geccdn.net/site/img/sprite_bg.png");}
+
+
+/*  header  */
+header .contact {background-image:url("//i104.geccdn.net/site/img/hdr_chat.png");}
+header .contact a {background-image:url("//i104.geccdn.net/site/img/ico_hdr_chat.png");}
+header .shopcart .links {background-image:url("//i104.geccdn.net/site/img/sprite_bg.png");}
+header .shopcart .links.sel {background-image:url("//i104.geccdn.net/site/img/sprite_bg.png");}
+header nav.menu ul {background-image:url("//i104.geccdn.net/site/img/menu_bg.gif");}
+header nav.menu .act ul li {background-image:url("//i104.geccdn.net/site/img/sprite_bg.png");}
+header ul#top_cats li div.nav div.subcat p {background-image:url("//i104.geccdn.net/site/img/arrow_menu.gif");}
+header ul#top_cats li div.nav a.subcat {background-image:url("//i104.geccdn.net/site/img/sprite_bg.png");}
+header nav.menu nav#top_cats_more ul li {background-image: url("//i104.geccdn.net/site/img/arrow_actnav.png");}
+span.selectArrow {background-image:url("//i104.geccdn.net/site/img/sprite_prod.png");}
+
+
+/*  ie7.css and ie8.css - no image paths  */
+
+
+/*  layouts  */
+.regions ul li:first-child {background-image: url("//i104.geccdn.net/site/img/ico_ftr_USflag.jpg");}
+.regions ul li:nth-child(2) {background-image: url("//i104.geccdn.net/site/img/ico_ftr_CAflag.jpg");}
+.regions ul li:last-child {background-image: url("//i104.geccdn.net/site/img/ico_ftr_MXflag.jpg");}
+.configArrow {background-image: url("//i104.geccdn.net/site/img/sprite_prod.png");}
+
+
+/*  leftnav  */
+#leftnav nav#catnav ul li, #leftnav ul#extras li {background-image: url("//i104.geccdn.net/site/img/leftnav_ico.gif");}
+#leftnav_clearance nav#catnav ul li {background-image: url("//i104.geccdn.net/site/img/arrow_blk.gif");}
+#leftnav #searchnav p.hdr, #leftnav_clearance p.hdr {background-image:url("//i104.geccdn.net/site/img/sprite_prod.png");}
+#leftnav #facetnav p.type span {background-image:url("//i104.geccdn.net/site/img/sprite_prod.png");}
+#leftnav .recent_view ul.rec_cat li {background-image:url("//i104.geccdn.net/site/img/sprite_bg.png");}
+.ui-slider .ui-slider-handle {background-image:url("//i104.geccdn.net/site/img/sprite_prod.png");}
+
+
+/*  picGroupGrid.css - above in sprites */
+
+/*  popups.css  */
+div.quickView #quickViewCompare ul li.box {background-image: url("//i104.geccdn.net/site/img/quickview_comparebox.gif");}
+.pt-popup .pt-ribbon {background-image: url("//i104.geccdn.net/site/img/ribbonBG.png");}
+
+
+/*  prod.css  */
+#home_body ul.prod div.freeship, .topsell ul.prod div.freeship, .feaprod ul.prod div.freeship, .grid ul.prod div.freeship, .list ul.prod div.freeship, .marketplace ul.prod div.freeship 
+{background-image: url("//i104.geccdn.net/site/img/prod_freeship.png");}
+.more_info, #cart_body a.shipping {background-image: url("//i104.geccdn.net/site/img/arrow_blue.gif");}
+ul.prod .see_pgroup a {background-image: url("//i104.geccdn.net/site/img/ico_pgroup_blue.gif");}
+.cartSlider ul.prod li, /*  popups.css  */
+.topsell ul.prod li, .grid ul.prod li, 
+.list ul.prod li, 
+#home_body .topsell ul.prod li:nth-child(4),
+.marketplace ul.prod li,
+#home_body .topsell ul.prod li:nth-child(5), 
+#home_body .topsell ul.prod li:nth-child(6) {background-image: url("//i104.geccdn.net/site/img/div_prod.gif");} /* border image shows on 4th item when there are 6 items */ 
+.pgroups_nav ul li {background-image:url("//i104.geccdn.net/site/img/search_bg.png");}
+.pgroups_nav ul li.sel {background-image:url("//i104.geccdn.net/site/img/search_bg_selected.png");}
+.picgroups_list a.see_pgroup {background-image: url("//i104.geccdn.net/site/img/ico_pgroup_red.png");}
+.picgroup .info ul li,
+.picgroups_list ul.prod li ul li {background-image: url("//i104.geccdn.net/site/img/bullet_desc.gif");}
+div.thumbArea #more a, /*  popups.css  */
+ul#zoomArea li#more {background-image:url("//i104.geccdn.net/site/img/more.jpg");}
+a.btn.prev {background-image: url("//i104.geccdn.net/site/img/arrow_prev.gif");}
+a.btn.next {background-image: url("//i104.geccdn.net/site/img/arrow_next.gif");}
+#details a.calc_ship {background-image: url("//i104.geccdn.net/site/img/ico_ship_calc.png");}
+#prod_body #details .btns a.btn.email {background-image:url("//i104.geccdn.net/site/img/ico_email.png");}
+#prod_body #details .btns a.btn.print {background-image:url("//i104.geccdn.net/site/img/ico_print.png");}
+.clearance.cat ul.heading li a.asc, .parts_results ul.heading li a.asc,
+.rebates ul.heading li a.asc {background-image:url("//i104.geccdn.net/site/img/prod_asc.gif");}
+.clearance.cat ul.heading li a.desc, .parts_results ul.heading li a.desc,
+.rebates ul.heading li a.desc {background-image:url("//i104.geccdn.net/site/img/prod_desc.gif");}
+.parts_cat ul li {background-image:url("//i104.geccdn.net/site/img/bullet_part.gif");}
+#cat_body .topsell_all .hdr {background-image: url("//i104.geccdn.net/site/img/topsell_hdrbg.gif");}
+.warrantyInfo ul li {background-image: url("//i104.geccdn.net/site/img/warArrow.png");}
+a.btn.prev {background-image: url("//i104.geccdn.net/site/img/arrow_prev.gif");}
+a.btn.next {background-image: url("//i104.geccdn.net/site/img/arrow_next.gif");}
+
+
+/*  shopByTabs.css - no image paths  */
+
+
+/*  sitemap.css and sitemapShopCat.css */
+p.siteMapCategoryLink a, p siteMapCategoryLink a:hover, p.siteMapCategoryLink a:visited,
+ul.siteMapSubCategoryLink li a, ul.pictureGroup li.siteMap a, /*  sitemap.css  */
+#sitemap_body ul.siteMapSubCategory li a.sitemap, 
+ul.siteMapSubCategoryLink li a, ul.pictureGroup li.siteMap a,
+#shopCategory_body p.siteMapCategoryLink a, p siteMapCategoryLink a:hover, p.siteMapCategoryLink a:visited /*  sitemapShopCat.css  */
+ {background-image: url("//i104.geccdn.net/site/img/arrow_site_map.gif");}
+ul.siteMapSubCategory li a, ul.pictureGroup li a, ul.products li a, /*  sitemap.css  */
+ul.pictureGroup li a, ul.products li a, 
+#shopCategory_body ul.category li a /*  sitemapShopCat.css  */ {background-image: url("//i104.geccdn.net/site/img/ico_site_map_arrow.gif");}
+
+
+/*  sitemapShopCat.css  */
+#sitemap_body p.siteMapCategoryLink a, #sitemap_body p.siteMapCategoryLink a:visited {background-image: url("//i104.geccdn.net/site/img/arrow_site_map_white.gif");}
+
+
+/*  slider.css  */
+.slider-start {background-image: url("//i104.geccdn.net/site/img/controls.png");}
+.searchIcon p.hdr {background-image: url("//i104.geccdn.net/site/img/hdr_prod_search_bg.png");}
+
+
+/*  sort.css  - no image paths  */
+
+

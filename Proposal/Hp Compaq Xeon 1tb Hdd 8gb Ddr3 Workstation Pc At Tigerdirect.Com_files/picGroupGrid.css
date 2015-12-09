@@ -1,0 +1,803 @@
+/*temp fix until buildm--- a tag removed from jsp */
+.picgroup_topsec .picgroup .prod_img a {cursor:default}
+
+/* override database input */
+#picgroup_body b {font-weight:normal}
+
+
+/* All shared styles between pciture group grids */
+.grid_note {margin-bottom: 15px;}
+#picgroup_body .grid_note_btm a.btn.grid_compare {position:relative}
+div.grid_note_btm {margin-top:15px;}
+#pictureGroupMainContainer div.grid_note_btm span {float:none;margin-left:0}
+
+
+/* only on picgroup */
+#pictureGroupMainContainer div.grid_note_btm p {font-weight:bold; margin-top:-15px; text-align:center}
+#pictureGroupMainContainer div.grid_note_btm p a {display:inline-block; padding:7px 10px; background-color:#ececec; font-size:13px; border-radius:3px; margin-left:15px; }
+
+
+div#pictureGridContainer table.container td.lrgBorder {border-left: 4px solid #ccc;}
+div#pictureGridContainer table.container tr.headings td.lrgBorder {border-left: 4px solid #fff;}
+
+#picgroup_body #midsec a#btn_return_cat, 
+#picgroup_body #midsec .breadcrumbs {
+	float:left
+}
+
+div#pictureGroupMainContainer {
+	width: 1000px;
+	margin-bottom: 30px;
+	clear: both;
+}
+
+.pgroups_container{display:none;}
+
+/* Product compare pop up */
+div.compare_results .prod_img a img {
+	width:122px;
+	height:122px;
+}
+
+div.compare_results .compare4 ul.prod {
+	display:table;
+}
+
+/* Filter css */
+#pictureGroupMainContainer .picGroupFilter {
+    background-color: #fff3bd;
+    margin: 20px 0;
+    padding: 10px 0;
+	width: 1000px;
+}
+
+#pictureGroupMainContainer .filterBoxBorder {
+    border: 2px solid #fff;
+	margin-left: 10px;
+    padding: 15px 30px;
+	width: 915px;
+}
+
+#pictureGroupMainContainer .selectBox {
+    float: left;
+	margin-right: 15px;
+}
+
+#pictureGroupMainContainer ul li {
+    color: #333;
+    overflow: hidden;
+	cursor: pointer;
+    display: block;
+    padding: 2px 10px;
+	line-height:normal;
+}
+
+#pictureGroupMainContainerr div:first-child {
+	height:35px;
+}
+
+#pictureGroupMainContainer div span {
+	margin-left:10px;
+	margin-top:10px;
+	float:left;
+	cursor:pointer;
+}
+
+#pictureGroupMainContainer ul,
+#pictureGroupMainContainer div.selectBox div {
+    background-color: #fff;
+    border: 1px solid #e6ddb3;
+    margin: 0;
+    padding: 0;
+}
+
+#pictureGroupMainContainer ul {
+	position: absolute;
+	z-index: 1;
+	display:none;
+	width: 200px;
+	max-height:350px;
+	margin-top:-1px;
+	overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#pictureGroupMainContainer ul li {
+    border-bottom: 1px dotted #515151;
+    outline: medium none;
+    padding: 7px;
+	margin: 5px;
+}
+
+#pictureGroupMainContainer ul li a {
+   padding-left: 5px;
+}
+
+#pictureGroupMainContainer ul li a:link, #picGroupFilter ul li a:visited {
+    color: #666;
+    text-decoration: none;
+}
+
+
+#pictureGroupMainContainer ul li:last-child a {
+    border-bottom: none;
+}
+
+#pictureGroupMainContainer div.selectBox div {
+	display:table;
+	height:30px;
+	padding-right:10px;
+}
+
+#pictureGroupMainContainer div.selectBox ul li:first-child {
+    display:none;
+}
+
+#pictureGroupMainContainer ul li.disabled a {
+	color:#D3D3D3;
+	cursor:default
+}
+
+div.clearFilters {
+	padding-top:10px;
+}
+
+div.clearFilters a {
+	text-decoration:underline
+}
+
+.showfilters {margin-bottom:20px; display:table}
+
+.showfilters strong{
+	padding-left: 5px;
+}
+.showfilters span{
+	border-right: 1px solid #000;
+	padding-right: 10px;
+}
+
+.showfilters a.fclose {
+	display: inline-block;
+	margin: 0 5px 0 10px;
+} 
+
+.showfilters span:last-child{
+	border-right: none;
+}
+
+
+/* Grid css*/
+ div#pictureGridContainer p:first-child {
+ 	padding:10px 10px;
+	margin-bottom:20px;background-color:#F6F6F6;
+	font-weight:bold; font-size:12px;
+}
+
+div#pictureGridContainer p:first-child span {
+    float: right;
+	color:#900;
+	text-decoration:underline;
+	margin-top:0;
+}
+
+div#pictureGridContainer {
+	margin:0 auto;
+	margin-top:20px;
+	width:1000px;
+}
+
+div#pictureGridContainer table.container {
+	border-collapse:collapse;
+	width: 100%;
+}
+
+div#pictureGridContainer table.container tr.headingsGroup {height:25px;}
+
+div#pictureGridContainer table.container td:first-child {
+    width: 53px;
+	min-width: 53px;	
+}
+
+div#pictureGridContainer table.container tr.item td:first-child  {
+	border:none;
+	padding:0;
+}
+
+div#pictureGridContainer table.container tr.item td input.checkbox {
+	padding:5px 3px;
+	border:none;
+}
+
+div#pictureGridContainer table tr.item:nth-child(even) {
+    background-color: #eee;
+}
+
+div#pictureGridContainer table tr.item:nth-child(even) td:first-child {
+    background:none
+}
+
+div#pictureGridContainer table.container td {
+	border:1px solid #eee; 
+	border-collapse:collapse;
+	padding:5px;
+	text-align:center;
+	font-size:11px;
+}
+
+div#pictureGridContainer table.container tr.active td {
+	border:none;
+}
+
+div#pictureGridContainer table.container tr.active {
+	border:4px solid #B4EBFF;
+}
+  
+div#pictureGridContainer table.container tr.headings td {
+	border-top:none;
+	border-bottom:none;
+	border-color:#999
+}
+
+div#pictureGridContainer table.container tr.headingsGroup td {
+	color:#990000;
+	font-size:12px;
+	border-bottom:none;
+	border-color:#999
+}
+
+div#pictureGridContainer table.container tr.headingsGroup td {
+	border:none
+}
+
+div#pictureGridContainer table.container tr.headingsGroup td.border {
+	border: 1px solid #999;
+	border-bottom:none;
+}
+
+div#pictureGridContainer table tr.headings,
+div#pictureGridContainer table tr.headings a {
+	font-weight: bold;
+	background-color: #016386;
+	color: #fff;
+}
+
+div#pictureGridContainer table tr.item td a {
+	font-size: 11px;
+}
+
+div#pictureGridContainer table.container tr:nth-child(3) td {
+	border-top:none;
+}
+
+div#pictureGridContainer table tr.headings a {
+	text-decoration:underline;
+}
+
+div#pictureGridContainer table input.qty {
+	width:30px;
+}
+
+div#pictureGridContainer table td.compare_btn {
+	padding: 0;
+	border: none;
+}
+
+#picgroup_body div#pictureGridContainer table.container tr.over {
+	background-color:#b4ebff;
+	cursor:pointer;
+}
+
+div#pictureGridContainer table td.price {
+	white-space: nowrap;
+}
+
+div#pictureGridContainer table.imgHoverTable, 
+div#pictureGridContainer table.imgHoverTable td {
+	border:none;
+	padding:0;
+}
+
+div#pictureGridContainer table.imgHoverTable {
+	width:173px
+}
+
+div#pictureGridContainer tr.item div.image,
+.alsobuy div.image {
+	width:45px; 
+	height:45px;
+	cursor:pointer;
+	margin:0 auto;
+}
+
+
+div#pictureGridContainer tr.item div.image img {width:45px; height:45px;}
+div#pictureGridContainer tr.item div.imgTipDiv img {padding-top:0;}
+
+div#pictureGridContainer div.imgHoverTip {
+ 	display:none;
+    position: relative;
+	left:40px;
+    top: -35px;
+	height:195px;
+    width: 178px;
+    z-index: 500;
+	background-position: -165px -267px;
+	background-repeat:no-repeat;
+}
+
+div#pictureGridContainer tr.item div.image div.imgHoverTip img {
+	padding-top:5px;
+	padding-left:15px;
+    width: 140px;
+	height:140px;
+	margin-bottom:8px;
+	display:inline-block
+}
+
+.alsobuy  div.imgHoverTip {
+    position: absolute;
+	margin: 15px 0 0 -160px;
+	padding: 15px 7px;
+	height: 195px;
+    width: 178px;
+    z-index: 700;
+	background-position: 0 -1078px;
+	background-repeat: no-repeat;
+}
+
+.alsobuy div.imgHoverTip img {width: 140px;height: 140px;}
+div#pictureGridContainer #quickViewButton, .alsobuy #quickViewButton {
+	border: 1px solid black;
+	color: #00668A;
+	font-weight:bold;
+	display:inline-block;
+	border-radius:3px 3px 3px 3px;
+	padding:3px;
+	padding-top:4px;
+	margin-left:20px;
+	text-transform:uppercase;
+}
+
+.alsobuy #quickViewButton {
+    margin: 5px 0 0 30px !important;	
+}
+
+div#pictureGridContainer .input_addtocart {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 5px solid #B4EBFF;
+    margin: 5px;
+    padding: 20px 40px;
+    position: absolute;
+    right: -15px;
+    top: 33px;
+    z-index: 1;
+	display:none;
+	border-top:none;
+}
+
+div#pictureGridContainer div.relative {position:relative}
+div#pictureGridContainer div.relative div.input_addtocart p {margin: 10px 0;}
+div#pictureGridContainer div.relative div.input_addtocart p a {
+    font-size: 11px;
+	font-weight: bold;
+	color: #004961;
+	text-decoration: underline; 
+}
+
+div#pictureGridContainer .btn_addtolist {
+    background-position: -21px -128px;
+    height: 20px;
+    position: relative;
+    width: 87px;
+	cursor:pointer;
+}
+
+div#pictureGridContainer span#gridFreeShip {font-size:22px;font-weight:bold;position:absolute;margin-left:1px;margin-top:-5px;color:#098406;}
+.picgroup_topsec p.gridFreeShip {color: #098406;font-size: 14px;font-weight: bold;}
+
+/* Feedback form */
+
+#feedback_container {
+	width:98%;
+	margin-bottom:30px;
+	margin-top:20px;
+	border:none
+}
+
+#picgroup_body #feedback_container,
+#prod_body #feedback_container {
+	border-top:1px solid #d6d6d6;
+}
+
+#feedback_container p:nth-last-child(3) {
+	color:#900;
+	font-weight:normal;
+}
+
+
+#feedBack_pop #feedback_container {
+	margin-bottom:0 
+}
+
+#picgroup_body #feedback_container p:nth-child(3),
+#prod_body #feedback_container p:nth-child(3) {
+	color:#990000; 
+	font-size:18px;
+	padding-top:15px;
+	padding-bottom:15px;
+	font-weight:bold;
+}
+
+
+#feedback_container p:nth-child(2) {
+	font-size:13px;
+}
+
+#feedback_container p {
+	font-weight:bold;
+	padding-left:10px;
+}
+
+#feedback_container input.submitCmt {
+	width:154px;
+	height:22px;
+	background-position: -3px -26px;
+	background-repeat: no-repeat;
+}
+
+#picgroup_body #feedback_container p:nth-child(4),
+#prod_body #feedback_container p:nth-child(4) {
+   margin-bottom:10px;
+   font-size:13px;
+   font-weight:bold;
+}
+
+#feedback_container ul {
+	margin-bottom:20px;
+	width:90%; 
+	margin-left:20px;
+	margin-top:15px;
+}
+
+#feedback_container ul li {
+	font-weight:normal;
+	margin-bottom:10px;
+}
+
+#feedback_container span.required {
+	color:red;
+	font-weight:bold;
+	font-size:inherit
+}
+
+#feedback_container span {
+	font-weight:normal;
+	font-size:11px;
+}
+
+#feedback_container p input, #feedback_container p textarea,
+#feedback_container p select {
+	margin-bottom:15px;
+	margin-top:10px;
+}
+
+#feedback_container p span.phoneNum {
+	font-weight:bold;
+	font-size:12px;
+}
+
+#feedback_container p:nth-last-child(2) {
+	margin-top:10px;
+	font-size:11px;
+	font-weight:normal;
+}
+
+
+/* customize product page css*/
+#customizeProduct_body .checkout {
+    background-position: -180px -250px;
+    width: 180px;
+	height:35px;
+	clear:both;
+	display:block;
+	float:right;
+	position:relative;
+	top:15px;
+	margin-right:20px;
+	background-color:white;
+}
+
+#customizeProduct_body .mainItem {
+	width:99.5%;
+	border:1px solid #afafaf;
+	display:table
+}
+
+#customizeProduct_body .prod_img {
+	float:left;
+	padding:0;
+	margin-right:20px;
+}
+
+#customizeProduct_body .prod_img img,
+#customizeProduct_body .prod_img  {
+	width:175px;
+	height:175px;
+}
+
+#customizeProduct_body .info {
+	float:left;
+	margin-top:30px;
+}
+
+#customizeProduct_body .info p, #customizeProduct_body .info h1 {
+	margin-bottom:10px;
+}
+
+#customizeProduct_body .info p:last-child,
+#customizeProduct_body .info p:nth-last-child(2),
+#customizeProduct_body .info p:nth-last-child(3) {
+	float:left;
+	font-weight:bold; 
+	margin-right:20px; 
+}
+
+#customizeContainer {
+	display:table; 
+	margin-bottom:20px;
+	margin-top:20px;
+	width:100%;
+	border:1px solid #afafaf
+}
+
+#customizeContainer div.yellowArrow {
+	width:80px; 
+	background-color:#fefde5;
+	margin-left:742px;
+}
+	
+#customizeContainer  p.yellowArrow {
+	 background-position: -60px -328px;
+ 	 background-repeat: no-repeat;
+	 width:45px; 
+	 height:17px; 
+	 display:inline-block; 
+	 margin-top:10px;
+	 margin-left:17.5px;
+}
+
+#yellow {
+	width:80px; 
+	background-color: #FEFDE5; 
+	margin-left:16px;
+	position:absolute;
+	z-index:-1;
+	margin-top:-30px;
+}
+
+#customizeContainer p.hdr {
+	font-size:20px;
+	color:#007DAB;
+	position:relative;
+	display:table;top:-10px;
+	background-color:white;
+	width:40%;
+	margin-left:20px;
+	padding-left:10px;
+}
+
+#customizeContainer .items  {
+	display:table; 
+	width:97%;
+	margin-left:20px;
+}
+
+#customizeContainer .items ul li.head  {
+	font-weight:bold;
+	margin-left:0;
+	width:110px;
+	border-top:none;
+	padding-top:0; 
+	text-align: center;
+}
+
+#customizeContainer .items ul li.item  {
+	font-size:16px;
+	color:#007DAB;
+	width:61.5%;
+	text-align:left;
+}
+
+#customizeContainer .items ul  {
+	display:table;
+	width:100%;
+	margin-top:35px;
+}
+
+#customizeContainer .items ul:first-child  {
+	margin-top:0
+}
+
+#customizeContainer .items ul li input {
+	width:30px;
+}
+
+#customizeContainer li.image img {
+	width:50px; 
+	height:50px;
+}
+
+#customizeContainer .items li.image {
+	clear:both;
+	margin-left:0;
+	width:50px;
+	height:50px;
+	padding-right:20px;
+	margin-bottom:10px;
+}
+
+#customizeContainer .items li.desc {
+	width:49.6%;
+	text-align:left;
+	width:45%;
+}
+
+#customizeContainer .items li.more a {
+	text-decoration:underline;
+}
+
+#customizeContainer .items li.more a p {
+	background-position: -110px 0;
+	background-repeat: no-repeat;
+	width:10px;
+	height:15px;
+	display:inline-block
+}
+
+
+p.up {background-position: -120px 0}
+
+#customizeContainer .items li.more {width:93px;}
+#customizeContainer .items li.more a#less {display:none}
+#customizeContainer .items li {
+	float:left;
+	width:110px;
+	border-top:1px solid #09C;
+	line-height:normal;
+	height:30px;
+	padding-top:10px;
+	text-align: center;
+}
+
+#customizeContainer .addOn {
+	display:table;
+	width:100%
+}
+
+#customizeContainer .addOn img, #customizeContainer .specs,
+#customizeContainer .addOn p {
+	float:left;
+	display:table
+}
+
+#customizeContainer .items .addOn img {
+	width:122px; 
+	height:122px;
+	margin:0 15px 15px 0
+}
+
+#customizeContainer .addOn p {
+	line-height: normal;
+    margin-right: 20px;
+    text-align: left;
+    width: 180px;
+} 
+
+#customizeContainer .addOn .specs {
+	border:1px solid #007DAB;
+	border-top:0;
+	float:right;
+	width:500px;
+}
+
+#customizeContainer .addOn div.contents div.specs p {
+	font-weight:bold;
+	margin-bottom:5px;
+	background-color:#007DAB;
+	color:white;
+	line-height:20px;
+	width:500px;
+	padding-left:10px;
+	margin-top:0;
+	margin-right:0
+}
+
+
+#customizeContainer .addOn .specs ul {
+	margin-top:0;
+	margin-left:10px;
+	width:500px
+}
+
+#customizeContainer .addOn .specs ul li {
+	border:none;
+	display:block;
+	width:100%;
+	clear:both;
+	padding:0;
+	height:auto;
+	margin-bottom:5px;
+	text-align:left
+}
+
+#customizeContainer .addOn .specs ul li span {
+	float:left;
+	width:50%;
+}
+
+#customizeContainer .items li.moreContents {
+	width:93%;
+	display:none;
+	border:none;
+	clear:both;
+	height:auto;
+	padding:0;
+	margin-left:20px;
+	background-color:white;
+}
+
+#customizeContainer p.total {
+	display:inline-block; 
+	float:right;
+	font-weight:bold;
+	margin-right:100px;
+}
+
+.addOn a.imgGallery  {
+    border-radius: 4px 4px 4px 4px;
+    font-weight: bold;
+    padding: 3px 10px;
+	background-color: #007DAB;
+	display:block;
+	font-size:12px;
+	clear:both;
+	color:white;
+	width:80px;
+	margin-left:10px;
+}
+
+.addOn div.contents {
+	margin:10px 0 10px 10px;
+	display:table
+}
+
+#customizeContainer .addOn div.contents p:first-child {
+	width:125px
+}
+
+#customizeContainer .addOn div.specs p:first-child {
+	width:400px;
+}
+
+a.moreinfo {
+	background-color:#fc0; 
+	color:#000; 
+	padding:4px 8px; 
+    border-radius:4px; 
+	text-decoration:none; 
+	font-size:11px; 
+	font-weight:bold; 
+	line-height:11px;
+}
+
+@media screen and (min-width: 1300px)  { /* for larger screens - bigger than 1000px  - size made for 1300px */
+
+	#pictureGroupMainContainer .picGroupFilter, div#pictureGroupMainContainer, div#pictureGridContainer {
+		width: 1300px;
+	}
+	
+	#pictureGroupMainContainer .filterBoxBorder {
+		width: 1215px;
+	}
+	
+}

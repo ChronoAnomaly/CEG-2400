@@ -1,0 +1,381 @@
+/* -----update the position of the y axis in the - add 320px ----  */
+/* --------------------------------------- FOOTER ---------------------------------------  */
+
+/* product recall pop up*/
+#prodRecalls_pop ul {list-style: disc outside;margin-left:20px;margin-right:10px;}
+#prodRecalls_pop ul li {margin-bottom:10px;width:90%;line-height:normal;}
+#prodRecalls_pop ul li a:hover {text-decoration:underline;}
+#prodRecalls_pop p {margin-top:20px;margin-bottom:20px;font-weight:bold}
+#prodRecalls_pop .body {padding-left:15px;}
+/* product recall pop up*/
+
+div#chaticon.chaticon_closed {bottom: -73px;}
+div#chatclose.closed {bottom: 0}
+div#chaticon.chaticon_open {bottom: 0}
+div#chatclose.open {bottom: 74px;}
+
+#chaticon {
+	background-repeat: no-repeat;
+	position:fixed; 
+	right:0; 
+	z-index:10000;
+	display:block;
+	width:267px;
+	height:99px;
+}
+
+#chatclose{
+	background-repeat: no-repeat;
+	position:fixed; 
+	right:22px; 
+	z-index:10001;
+	display:block;
+	width:10px;
+	height:13px;
+	cursor:pointer;
+}
+
+footer .promo {display:none}
+
+footer {  
+   border-top: 5px solid #FFF;
+   padding-top: 10px;
+   width: 1000px;	
+   margin: 0 auto 30px;
+   clear: both;
+   display: table;
+}
+
+footer .hbdr {
+	background-color: #007098; 
+	width: 1000px; 
+	height: 1px;
+    clear:both
+}
+
+footer .vlbdr, footer .vrbdr {
+	background-color: #007098; 
+	width: 1px; 
+	height: 250px;
+	FILTER:  progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#ffffff, endColorstr=#007098); 
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#007098)); /* for webkit browsers  */
+    background: -moz-linear-gradient(top,  #ffffff,  #007098); /* for firefox 3.6  */
+	background: -o-linear-gradient(top,  #ffffff,  #007098);
+}
+
+footer .vlbdr, footer .vrbdr {float:left;}
+
+.quick_order { 
+	width: 200px;
+	FILTER:  progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#b1cad2, endColorstr=#e9eced); 
+    background: -webkit-gradient(linear, left top, left bottom, from(#b1cad2), to(#e9eced)); /* for webkit browsers  */
+    background: -moz-linear-gradient(top,  #b1cad2,  #e9eced); /* for firefox 3.6  */
+	background: -o-linear-gradient(top,  #b1cad2,  #e9eced); 
+    background: -ms-linear-gradient(to bottom, #b1cad2, #e9eced);/* IE 10 */
+    float:right;
+	margin-right:10px;
+}
+
+.quick_order .hdr{
+	color: #555;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 15px;
+}
+
+.quick_order fieldset{
+	background-color: #f4f7f7;
+	width: 99%;
+	margin: 1px auto 0;
+}
+
+.quick_order input {color: #555;}
+.quick_order input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { color: #555;}
+.quick_order input:-moz-placeholder, textarea:-moz-placeholder { color: #555;}
+.quick_order input::-moz-placeholder, textarea::-moz-placeholder { color: #555;}
+.quick_order input:-ms-input-placeholder, textarea:-ms-input-placeholder { color: #555;}
+
+.quick_order input.qty {
+    margin: 0 10px 10px 15px;
+	width: 40px;
+	padding: 2px;
+	clear: both;
+}
+
+.quick_order input {
+    margin-bottom: 10px;
+	width: 100px;
+	padding: 2px;
+	float: left;
+}
+
+.quick_order input.btn.addcart_medsm {
+	border: 0;
+	margin: 5px 0 10px 18px;
+	width: 84px;
+}
+
+footer .contact, nav, ul.contact {float: left;}
+
+footer .contact, ul.contact {
+   width: 200px;
+   background-color: #fff;
+   padding: 10px;
+   padding-left:0;
+   height: 220px;
+}
+
+footer ul.contact li {
+	border: 2px solid #666;
+    box-shadow: 4px 4px 7px #ababab;
+    border-radius: 4px;
+	width: 150px;
+    padding: 5px 5px 12px;
+	margin: 0 auto 10px;
+    color: #666;
+	font-size: 15px;
+	font-weight: 800;
+	padding: 10px 0 0 33px;		
+}
+
+footer ul.contact li .no { 
+    color: #000;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: -2px;
+}
+
+footer ul.contact li a {
+    font-size: 10px;
+	font-weight: bold;	
+	text-align: center;
+	text-decoration: none;
+	margin-top: -5px;
+	display: block;
+}
+
+footer .call, .chat, .email {
+	width: 150px;
+    padding: 5px 5px 8px;
+	margin: 0 auto 10px;	
+}
+
+footer .call .hdr, .chat .hdr, .email .hdr { 
+	font-size: 15px;
+	font-weight: 800;
+    color: #01455C;   /* --- text color change--- */
+	padding: 10px 0 0 33px;
+	height: 25px;
+}
+
+footer .call .hdr, ul.contact li:first-child {
+	background-repeat: no-repeat;
+	margin: 0; /* ---  position change --- */
+}
+
+footer .chat .hdr, ul.contact li:nth-child(2) {
+	background-repeat: no-repeat;
+	margin: 0; /* ---  position change --- */
+}
+
+.email .hdr, ul.contact li:last-child {
+	background-repeat: no-repeat;
+	margin: 0;  /* ---  position change --- */
+}
+
+.call .no { 
+    color: #333; /* --- text color change--- */
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	margin: 1px 0 0 -5px; /* margin change */
+}
+
+.chat .bcText, .email p  {
+	margin-top: -5px;
+	FILTER:  progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#e9f4f8, endColorstr=#06495f); 
+    background: -webkit-gradient(linear, left top, left bottom, from(#e9f4f8), to(#06495f)); /* for webkit browsers   */
+    background: -moz-linear-gradient(top,  #e9f4f8,  #06495f); /* for firefox 3.6  */
+    padding: 1px;
+}
+
+.chat a, .email a {
+    font-size: 10px;
+	font-weight: bold;	
+	color: #114c60;  /* --- text color change--- */
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	background-color: #e9f4f8; /* --- background color added --- */
+	padding: 7px 4px; /* --- padding added --- */
+}
+
+footer nav {
+	width: 525px;
+	margin-top:30px;
+	margin-left:30px;
+}
+
+footer nav ul {  /* --- background change in navigation --- */
+	width: 160px;
+	height: 220px;
+	FILTER:  progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#ffffff, endColorstr=#f2f6f7); 
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f2f6f7)); /* for webkit browsers  */
+    background: -moz-linear-gradient(top,  #ffffff,  #f2f6f7); /* for firefox 3.6  */
+	background: -o-linear-gradient(top,  #ffffff,  #f2f6f7);
+	float: left;
+	margin: 0 8px 0 7px;
+}
+
+footer nav ul li:first-child {  /* --- navigation sections titles --- */
+	font-size: 13px;
+	font-weight: bold;
+	color: #555;
+	margin-bottom: 7px;
+	padding: 3px 10px;
+}
+
+footer nav ul li {padding: 3px 10px;}
+footer nav ul li a {text-decoration: none;	color: #333;}
+footer nav ul li a:hover {text-decoration: underline;}
+footer #top, footer #center {clear:both;height:250px;width:1000px;}
+
+#email_alerts {
+	width: 360px; 
+	padding: 10px;
+	margin-left: 0;
+    height: 200px;
+    float:left;
+	margin-top: 0;
+} 
+
+#email_alerts .hdr {
+	background-repeat: no-repeat;
+    font-size: 16px;
+    font-weight: 800;
+	color: #00516c;   /* --- text color change--- */
+	padding: 10px 0 10px 35px;
+}
+
+#email_alerts p {    /* --- text style change--- */
+   	font-size: 11px; 
+	color: #00516c;
+	font-weight: normal;
+	padding: 3px 0 2px 2px;
+}
+
+#email_alerts fieldset {  /* --- location and size change change--- */    
+	FILTER:  progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#007096, endColorstr=#00516c); 
+    background: -webkit-gradient(linear, left top, left bottom, from(#007096), to(#00516c)); /* for webkit browsers  */
+    background: -moz-linear-gradient(top,  #007096,  #00516c); /* for firefox 3.6  */
+	background: -o-linear-gradient(top,  #007096,  #00516c);
+	background: -ms-linear-gradient(top, #007096 0%, #00516c 100%); /* IE10+ */
+	/* background-color: #999; */
+	padding: 15px;
+	width: 150px; 
+	position: absolute;
+	margin-left: 180px;
+	margin-top: -205px;  
+	z-index:20;
+}
+
+#email_alerts img {position:relative; z-index:21;}
+
+#email_alerts label {
+    color: #fff;
+	display: block;
+	padding-bottom: 2px;
+}
+
+#email_alerts input {
+    margin-bottom: 10px;
+	width: 140px;
+	padding: 4px;
+}
+
+#email_alerts input.btn.signup {border: 0;margin: 5px 0 0 80px;width: 70px;}
+
+#email_alerts .eblast {
+	position: absolute;
+	z-index: 500;
+	margin-top: 10px;
+}
+
+.google_paypal {float:left;margin-top:0px;margin-left:7px;}
+
+#google_translate_element { /* GOOGLE layout translator */
+	border: 1px solid #006f94;  /* change border */
+    box-shadow: 4px 4px 7px #ababab;
+	padding: 20px 15px;
+	width: 350px;
+	background-color: #fff;
+	margin-bottom: 20px;
+	margin-top: 10px;	
+}
+
+.google_paypal .paypal {margin-left: 70px;}
+
+.google_paypal .web_award {margin-left: 5px;}
+
+.paypal img {width: 253px;height: 80px;	}
+ul.soc_med { float:right;width: 200px;margin-top:25px;}
+
+ul.soc_med li {
+	width: 200px;
+	height: 35px;
+	padding-top:10px;
+	background-repeat: no-repeat;
+}
+
+ul.soc_med li a {
+    color: #2e2e2e;	
+	display: block;	
+	padding-left: 45px;
+}
+
+ul.soc_med li:first-child {background-position: 0 -342px;}
+ul.soc_med li:nth-child(2) {background-position: 0 -405px;}
+ul.soc_med li:nth-child(3) {background-position: 0 -485px;}
+ul.soc_med li:nth-child(4) {background-position: 0 -562px;}
+ul.soc_med li:nth-child(5) {background-position: 0 -627px;}
+
+ul.sponsors {  
+    width: 990px;
+	clear: both;
+    height:80px;
+    margin-top:30px;
+}
+
+ul.sponsors li {
+	width: 165px;
+	height: 60px;
+	float: left;
+}
+
+ul.sponsors li img {
+	width: 125px;
+	height: 60px;
+}
+
+#copyright { 
+	color: #555;	  	
+	text-align: center;
+	width: 1000px;
+    clear:both;
+	margin-top:10px;
+}
+
+#node {display: none;}
+
+@media screen and (min-width: 1300px)  {
+	.responsive footer, .responsive footer #top, .responsive footer #center,
+	.responsive footer .hbdr, .responsive #copyright, .responsive footer ul.sponsors {width:1300px;}
+	.responsive  footer .contact, .responsive  ul.contact {padding-left: 0;width: 240px;}
+	.responsive .google_paypal {margin-left:150px;}
+	.responsive footer nav {width: 800px;}
+	.responsive footer nav ul {width: 250px;}
+	.responsive footer ul.sponsors li {width: 210px;}
+	.responsive footer ul.sponsors li img{margin: 0 50px;}
+	.responsive footer .contact {padding-left:10px;}
+}

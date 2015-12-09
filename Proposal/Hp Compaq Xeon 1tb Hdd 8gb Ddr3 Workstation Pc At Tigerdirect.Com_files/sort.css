@@ -1,0 +1,363 @@
+.order_results .sort {
+   	display: none;
+}
+
+/* --------------------------------------- SEARCH RESULTS --------------------------------------- */
+
+.views {
+   height: 25px;
+   width: 80px !important;
+   float: right;
+   padding-right: 20px;
+}
+
+.listview, .listview_sel, .gridview, .gridview_sel {
+   width: 30px; 
+   height: 25px;
+   float: right;
+   margin: 0 3px;
+   cursor: pointer;
+}
+
+.gridview       { background-position: -40px -134px; }
+
+.gridview_sel   { background-position: 0 -134px; }
+
+.listview       { background-position: -119px -134px; }
+
+.listview_sel   { background-position: -79px -134px; }
+
+.sortpage, .sort_reviews {
+   color: #013887;
+   font-size: 12px;
+   font-weight: bold;
+   padding: 10px 0 10px 5px;
+   width: 100%;
+   clear: both;
+   height: 25px;
+}
+
+#search_body .sortpage, #cat_body .sortpage {
+   margin-top: -35px;
+   width: 545px;
+   float: left;	
+}
+
+.sort_reviews {
+   width: 100%;
+   background-color: #f5f7f9;
+}
+
+.sortpage div.sort, .sort_reviews div.sort {
+   margin: 0;
+   padding: 5px 10px 0 5px;
+   float: left;	
+   color: #00465e;
+}
+
+.sort_reviews div.sort {
+   padding-right: 80px;
+}
+
+.sortpage div.view, .sort_reviews div.view {
+   margin: 0;
+   padding: 5px 15px 0 5px;
+   float: right;
+}
+
+.sortpage .arrow {
+   width: 14px; 
+   height: 17px;
+  /* margin: 5px 0 0 0;*/
+   cursor: pointer;
+   display: inline-block;
+}
+
+.sortpage .nos {
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: bold;
+	color: #a0cedf;
+}
+
+.sortpage .nos a, .sortpage .sel{
+	text-decoration: underline;
+	color: #01668a;
+	cursor: pointer;
+	border: 1px solid #fff;
+	line-height: 12px;
+	padding: 2px;
+}
+
+.prodDetails .nos a {
+	border: 1px solid #f5f7f9 !important;
+}
+
+.sortpage .view_all {
+	font-size: 11px;
+	font-weight: bold;
+	color: #01668a;
+	text-decoration: underline;
+}
+
+.sortpage .sel{
+	color: #013887;
+	text-decoration: none;
+	border: 1px solid #013887;
+	cursor:default;
+}
+
+.sortpage .arrow.first  { background-position: 0 -108px;}
+
+.sortpage .arrow.prev   { background-position: -17px -108px;}
+
+.sortpage .arrow.next  { background-position: -30px -108px;}
+
+.sortpage .arrow.last  { background-position: -44px -108px; }
+
+.sortpage .paging .arrows {
+    float: right;
+	/*margin: -5px 0 0 20px;*/
+}
+
+#search_body .sortpage .paging .arrows, #cat_body .sortpage .paging .arrows {
+    float: right;
+}
+
+.sortpage  .paging  p {
+   margin: 0;
+   padding: 0;
+	float:left;
+   font-size: 11px;	
+/*   margin-top: 8px;*/
+   width:auto !important /* need to overwrite p width of 98% that occurs */
+}
+
+#search_body .sortpage .paging  p, #cat_body .sortpage .paging  p {
+	margin: 8px 0 0 15px;
+}
+
+.sortpage .paging .items_onpg {
+    padding-left: 15px;	
+	color: #999;
+}
+
+.sortpage .paging .items_onpg a {
+    background-color: #ececec;
+	color: #555;
+	margin-right: 5px;
+	padding: 2px;
+	display: inline-block;
+}
+
+.sortpage .paging .items_onpg a.nos_sel {
+    background-color: #c8e7f0;
+	color: #005579;
+	font-weight: bold;
+}
+
+.compare_items {
+   color: #013887;
+   font-size: 12px;
+   font-weight: bold;
+   background: #f1f1f1;
+   height: 43px;
+   clear: both;
+   margin: 10px 0;
+   width: 98%;
+   margin: 0 auto;
+   padding: 8px 0 5px 0;
+}
+
+.compare_items .btn_comp {
+   float: left;
+   padding: 10px 0 0 8px;	
+}
+
+.compare_items p {
+   margin-left: 90px !important;
+   padding: 10px;
+   float: left;	
+}
+
+.compare_items .item{
+	width: 37px;
+	height: 37px;
+	margin-right: 10px;
+	float: left;
+	border: 1px solid #666;
+}
+
+.compare_items img{
+	width: 35px;
+	height: 35px;
+	position:absolute; 
+	z-index:0;
+	margin: 1px 0 0 1px;
+	display:none;
+}
+
+.compare_items .item .remove{
+    position: absolute; 
+    z-index:20; 
+    margin: -5px 0 0 25px;
+    background-position: -184px -115px;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.compare_items .btn_add {
+   float: right;
+   padding: 5px 10px 0 0;	
+}
+
+
+
+/* Account Sort */
+
+.order_results table  {
+   margin-bottom: 15px;
+}
+
+.order_results .sortpage {
+   padding: 8px 0;
+   margin: 0;
+   width:730px;
+   
+}
+
+
+.order_results .sortpage .paging .arrows {
+   padding: 0;
+   margin: -15px 0 0;
+   float: right;	
+}
+
+.order_results .sortpage .paging p {
+   padding: 0;
+ /*  margin: 0 0 0 10px;*/
+ /*  float: left;*/
+/*   position:absolute;	*/
+   
+}
+
+.order_results  #products .sortpage .paging .arrows {
+   padding: 0;
+   margin: -10px 0 0 30px;
+   float: left;	
+}
+
+#products .sortpage .paging p, #alerts .sortpage .paging p {
+   padding: 0;
+   width:auto;
+/*   margin: 0 0 0 10px;*/
+ /*  float: left;	*/
+}
+
+#products .sortpage .paging .arrows, #alerts  .sortpage .paging .arrows{
+   padding: 0;
+   margin: -10px 215px 0 0;
+   float: right;	
+}
+
+#products  .btn.addtocart_items {
+   margin: -35px 0 0 570px;	
+   position: absolute;
+}
+
+#alerts  a.btn.delete {
+   margin: -20px 0 0 600px;	
+   position: absolute;
+}
+
+
+
+/* Marketplace items */
+
+.marketplace .sortpage .paging p {
+   margin-top: -30px;	
+}
+
+.marketplace .btm .sortpage .paging p {
+   margin-top: 40px !important;	
+}
+
+/* parts */
+
+
+#parts_body .sort {
+	 margin-top: -2px;
+	 display: none;	
+}
+
+#parts_body #midsec {
+     padding-bottom: 40px;	
+}
+
+#parts_body .sortpage {
+     width: 750px;
+	 margin-left: 15px;	
+}
+
+#parts_body .sortpage p {
+	margin-left: 60px;	
+	margin-right: 0;
+}
+
+
+
+/* place in bottom of prod.css */
+
+
+@media screen and (min-width: 1300px)  { /* for larger screens - bigger than 1000px  - size made for 1300px */
+
+.views, .sortpage, .sort_reviews, .compare_items {
+   width: 95%;
+   margin: 0 auto;
+}
+
+.sortpage  {
+	margin-bottom: 15px;
+}
+
+/*.sortpage .paging .arrows {
+	margin: -5px 0 0 130px;
+}*/
+
+/*.sortpage .paging  p {
+ margin-right: 10px;
+}*/
+
+.compare_items p {
+   margin-left: 215px !important;
+}
+
+#parts_body .sortpage .paging .arrows {
+	margin: -5px 0 0 50px;
+}
+
+.views {
+   height: 25px;
+   width: 80px !important;
+   float: right;
+}
+
+#search_body .sortpage, #cat_body .sortpage {
+   width: 810px;
+   margin-left: 25px;
+}
+
+#search_body .sortpage .paging  p, #cat_body .sortpage .paging  p {
+	margin: 8px 0 0 120px;
+	float: left;
+}
+
+#search_body .sortpage .paging .arrows, #cat_body .sortpage .paging .arrows {
+    float: right !important;
+}
+
+
+
+}
+
